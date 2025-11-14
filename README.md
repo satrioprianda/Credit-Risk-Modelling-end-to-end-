@@ -138,16 +138,19 @@ for business interpretation
 the objective is to check which predictors contribute the most in term of performance on the final 
 model Gini, which later is shown by the marginal contribution. 
 
+<div align="center">
 <img width="519" height="192" alt="image" src="https://github.com/user-attachments/assets/07cd466b-b60b-489d-b5c4-87a078979695" />
-
+</div>
 
 
 Correlation
 - Checking the correlation is to ensure no final predictor have high correlation between another, it 
 wouldn’t make sense to maintain 2 predictors in production which highly correlated each other in 
 term of mathematics relationship .
-<img width="586" height="499" alt="image" src="https://github.com/user-attachments/assets/5474b145-e068-450e-9889-a233ef6f4fed" />
 
+<div align="center">
+<img width="586" height="499" alt="image" src="https://github.com/user-attachments/assets/5474b145-e068-450e-9889-a233ef6f4fed" />
+</div>
 
 **5. Model performance**
 
@@ -159,8 +162,9 @@ stable.
 
 based on picture below, the model doesn't show overfit. meaning diff relative% between train and other validation data set <10% as practical rule of thumb overfit on Industry.
 
-<img width="589" height="351" alt="image" src="https://github.com/user-attachments/assets/195bcca1-5f5e-4d5f-a092-3c92a1d4215d" />
-
+<div align="center">
+<img width="689" height="451" alt="image" src="https://github.com/user-attachments/assets/195bcca1-5f5e-4d5f-a092-3c92a1d4215d" />
+</div>
 
 
 **LIFT & Calibration**
@@ -170,8 +174,9 @@ shows how well the predicted probabilities match the actual outcomes. In other w
 whether the predicted probabilities are well-calibrated, meaning they correspond closely to the true 
 likelihood of the event
 
+<div align="center">
 <img width="657" height="372" alt="image" src="https://github.com/user-attachments/assets/20e99ac5-cf24-4cd7-9f3e-abc7f7123a40" />
-
+</div>
 
 **Final Score Monotonicity**
 Show the bad stability index, or score-risk linear relationship stability by sample set. If the linear 
@@ -179,9 +184,8 @@ relationship and the monotonicity is stable throughout different sample set or p
 have stable sorting capability to distinct good and bad incoming application. Which potentially leads 
 to better performance and better approved population. 
 
-
-<img width="569" height="352" alt="image" src="https://github.com/user-attachments/assets/d0a5bbdc-b890-4d88-93a0-31b7d9d7a737" />
-
-
+<div align="center">
+<img width="769" height="452" alt="image" src="https://github.com/user-attachments/assets/d0a5bbdc-b890-4d88-93a0-31b7d9d7a737" />
+</div>
 
 
