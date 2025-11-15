@@ -12,9 +12,12 @@ Content Overview
 
 
 **1. Raw Data overview** 
-Overall there is 22 columns which contains information provided on the raw data which have all 
-information to build credit risk model . the information shows application information on certain 
-period with index as identifier and de_date_joined as date_application information. The data assumed 
+- Overall there is 22 columns which contains information provided on the raw data which have all 
+information to build credit risk model .
+- the information shows application information on certain period with index as identifier and de_date_joined as date_application information.
+- The data assumed 
+
+
 only on approved population which no credit status app information. 
 • Index ( unique identifier ) 
 • Flag_bad → dpd target ( 1,0 client’s default inf)
@@ -62,9 +65,14 @@ OOT period : June 2018 – December 2018 →7 months observation but on monthly 
 less contract available ( potential data limitation , can potentially leads to instability performance 
 within this period )
 
+
 <div align="center">
   <img width="590" height="366" alt="image" src="https://github.com/user-attachments/assets/9eedf665-c7fc-47a7-914f-e9f130503ab9" />
 </div>
+
+
+
+
 
 **Feature Selection**
 
